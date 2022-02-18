@@ -11,11 +11,16 @@ body{
 
 main{
     height: calc(100vh - 100px);
+    position: relative;
 
 }
 
 .icone-top{
-    /* background-color: chartreuse; */
+    background-color: chartreuse;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
 }
 
 .content-center{
@@ -28,6 +33,14 @@ main{
     overflow: auto;
 }
 
+.pinco-pallo{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+
 
  .foto{ 
     background-image: url(./img/slack-imgs.jpg); 
@@ -37,6 +50,7 @@ main{
     background-repeat: no-repeat; 
     background-size: cover;
     margin: 5px 3px;
+    position: relative;
 }
 
 
@@ -91,7 +105,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 41px;
+    padding: 40px 32px;
     background-color: rgb(46, 44, 44);
     color: red;
 }
