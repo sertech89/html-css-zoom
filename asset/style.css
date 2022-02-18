@@ -38,9 +38,8 @@ main{
     height: 200px; 
     border: 1px red solid;
     background-repeat: no-repeat;
-    background-size: cover;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* background-size: cover; */
+
 }
 
 
