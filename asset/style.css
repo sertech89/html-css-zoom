@@ -26,11 +26,12 @@ main{
 
 }
 
-/* .container-foto{
+.container-foto{
     display: flex;
     width: 80%;
     margin: 0 auto;
 } 
+
 
  .foto{ 
     background-image: url(./img/slack-imgs.jpg); 
