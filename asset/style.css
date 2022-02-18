@@ -30,16 +30,16 @@ main{
     display: flex;
     width: 80%;
     margin: 0 auto;
-} */
+} 
 
-/* .foto{ */
-    /* background-image: url(./img/slack-imgs.jpg); */
-    /* width: 600px; */
-    /* height: 200px;  */
-    /* border: 1px red solid; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-/* } */
+ .foto{ 
+    background-image: url(./img/slack-imgs.jpg); 
+    width: 600px;
+    height: 200px; 
+    border: 1px red solid;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 
 
 
